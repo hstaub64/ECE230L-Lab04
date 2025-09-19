@@ -23,10 +23,10 @@ We also learned more/got more practice writing verilog and utilizing vivado to d
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
-
-
+  * The groups are able to go across the edge of the KMap because the matrix is able to be wrapped around a torus so the left and right edges touch and the top and bottom edges touch as well. It also maintains the rule of only one binary value changing per jump, by column or by row.
 
 ### Why are the names Sum of Products and Products of Sums?
+  * The names are Sum of Products and Product of Sums because to find the equations, you use OR (+) on the equations that return an output of true (product) for POS and use AND (*) on the sums (the values to return false) for SOP.
 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?

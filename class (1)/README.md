@@ -30,5 +30,4 @@ We also learned more/got more practice writing verilog and utilizing vivado to d
 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
-We are able to check because the underlying nature of XOR. XOR only evaluates to true when the elements differ, therefore, when we compare outputs from naive min and max, if their outputs are not 0 (i.e. they are different), then we output a message to the console saying they do not match.
+ * We are able to check because the underlying nature of XOR. XOR only evaluates to true when the elements differ, therefore, when we compare outputs from naive min and max, if their outputs are not 0 (i.e. they are different), then we output a message to the console saying they do not match.
